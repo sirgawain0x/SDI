@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		396FA8961524BA8200E29B35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396FA8951524BA8200E29B35 /* UIKit.framework */; };
+		396FA8981524BA8200E29B35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396FA8971524BA8200E29B35 /* Foundation.framework */; };
+		396FA89A1524BA8200E29B35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396FA8991524BA8200E29B35 /* CoreGraphics.framework */; };
+		396FA8A01524BA8200E29B35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 396FA89E1524BA8200E29B35 /* InfoPlist.strings */; };
+		396FA8A21524BA8200E29B35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 396FA8A11524BA8200E29B35 /* main.m */; };
+		396FA8A61524BA8200E29B35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 396FA8A51524BA8200E29B35 /* AppDelegate.m */; };
+		396FA8A91524BA8200E29B35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396FA8A81524BA8200E29B35 /* ViewController.m */; };
+		396FA8AC1524BA8200E29B35 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396FA8AA1524BA8200E29B35 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		396FA8911524BA8200E29B35 /* CollegeSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollegeSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		396FA8951524BA8200E29B35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		396FA8971524BA8200E29B35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		396FA8991524BA8200E29B35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		396FA89D1524BA8200E29B35 /* CollegeSelector-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollegeSelector-Info.plist"; sourceTree = "<group>"; };
+		396FA89F1524BA8200E29B35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		396FA8A11524BA8200E29B35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		396FA8A31524BA8200E29B35 /* CollegeSelector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CollegeSelector-Prefix.pch"; sourceTree = "<group>"; };
+		396FA8A41524BA8200E29B35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		396FA8A51524BA8200E29B35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		396FA8A71524BA8200E29B35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		396FA8A81524BA8200E29B35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		396FA8AB1524BA8200E29B35 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		396FA88E1524BA8200E29B35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396FA8961524BA8200E29B35 /* UIKit.framework in Frameworks */,
+				396FA8981524BA8200E29B35 /* Foundation.framework in Frameworks */,
+				396FA89A1524BA8200E29B35 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		396FA8861524BA8100E29B35 = {
+			isa = PBXGroup;
+			children = (
+				396FA89B1524BA8200E29B35 /* CollegeSelector */,
+				396FA8941524BA8200E29B35 /* Frameworks */,
+				396FA8921524BA8200E29B35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		396FA8921524BA8200E29B35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				396FA8911524BA8200E29B35 /* CollegeSelector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		396FA8941524BA8200E29B35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				396FA8951524BA8200E29B35 /* UIKit.framework */,
+				396FA8971524BA8200E29B35 /* Foundation.framework */,
+				396FA8991524BA8200E29B35 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		396FA89B1524BA8200E29B35 /* CollegeSelector */ = {
+			isa = PBXGroup;
+			children = (
+				396FA8A41524BA8200E29B35 /* AppDelegate.h */,
+				396FA8A51524BA8200E29B35 /* AppDelegate.m */,
+				396FA8A71524BA8200E29B35 /* ViewController.h */,
+				396FA8A81524BA8200E29B35 /* ViewController.m */,
+				396FA8AA1524BA8200E29B35 /* ViewController.xib */,
+				396FA89C1524BA8200E29B35 /* Supporting Files */,
+			);
+			path = CollegeSelector;
+			sourceTree = "<group>";
+		};
+		396FA89C1524BA8200E29B35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				396FA89D1524BA8200E29B35 /* CollegeSelector-Info.plist */,
+				396FA89E1524BA8200E29B35 /* InfoPlist.strings */,
+				396FA8A11524BA8200E29B35 /* main.m */,
+				396FA8A31524BA8200E29B35 /* CollegeSelector-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		396FA8901524BA8200E29B35 /* CollegeSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396FA8AF1524BA8200E29B35 /* Build configuration list for PBXNativeTarget "CollegeSelector" */;
+			buildPhases = (
+				396FA88D1524BA8200E29B35 /* Sources */,
+				396FA88E1524BA8200E29B35 /* Frameworks */,
+				396FA88F1524BA8200E29B35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollegeSelector;
+			productName = CollegeSelector;
+			productReference = 396FA8911524BA8200E29B35 /* CollegeSelector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		396FA8881524BA8100E29B35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Full Sail University";
+			};
+			buildConfigurationList = 396FA88B1524BA8100E29B35 /* Build configuration list for PBXProject "CollegeSelector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 396FA8861524BA8100E29B35;
+			productRefGroup = 396FA8921524BA8200E29B35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				396FA8901524BA8200E29B35 /* CollegeSelector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		396FA88F1524BA8200E29B35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396FA8A01524BA8200E29B35 /* InfoPlist.strings in Resources */,
+				396FA8AC1524BA8200E29B35 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		396FA88D1524BA8200E29B35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396FA8A21524BA8200E29B35 /* main.m in Sources */,
+				396FA8A61524BA8200E29B35 /* AppDelegate.m in Sources */,
+				396FA8A91524BA8200E29B35 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		396FA89E1524BA8200E29B35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				396FA89F1524BA8200E29B35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		396FA8AA1524BA8200E29B35 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				396FA8AB1524BA8200E29B35 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		396FA8AD1524BA8200E29B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		396FA8AE1524BA8200E29B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		396FA8B01524BA8200E29B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollegeSelector/CollegeSelector-Prefix.pch";
+				INFOPLIST_FILE = "CollegeSelector/CollegeSelector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		396FA8B11524BA8200E29B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollegeSelector/CollegeSelector-Prefix.pch";
+				INFOPLIST_FILE = "CollegeSelector/CollegeSelector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		396FA88B1524BA8100E29B35 /* Build configuration list for PBXProject "CollegeSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396FA8AD1524BA8200E29B35 /* Debug */,
+				396FA8AE1524BA8200E29B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		396FA8AF1524BA8200E29B35 /* Build configuration list for PBXNativeTarget "CollegeSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396FA8B01524BA8200E29B35 /* Debug */,
+				396FA8B11524BA8200E29B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 396FA8881524BA8100E29B35 /* Project object */;
+}
