@@ -15,6 +15,7 @@
 		396FA8A61524BA8200E29B35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 396FA8A51524BA8200E29B35 /* AppDelegate.m */; };
 		396FA8A91524BA8200E29B35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396FA8A81524BA8200E29B35 /* ViewController.m */; };
 		396FA8AC1524BA8200E29B35 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 396FA8AA1524BA8200E29B35 /* ViewController.xib */; };
+		39C1C01D16361D28007B3CF1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C1C01C16361D28007B3CF1 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		396FA8A71524BA8200E29B35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		396FA8A81524BA8200E29B35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		396FA8AB1524BA8200E29B35 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		39C1C01C16361D28007B3CF1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		396FA8861524BA8100E29B35 = {
 			isa = PBXGroup;
 			children = (
+				39C1C01C16361D28007B3CF1 /* Default-568h@2x.png */,
 				396FA89B1524BA8200E29B35 /* CollegeSelector */,
 				396FA8941524BA8200E29B35 /* Frameworks */,
 				396FA8921524BA8200E29B35 /* Products */,
@@ -151,6 +154,7 @@
 			files = (
 				396FA8A01524BA8200E29B35 /* InfoPlist.strings in Resources */,
 				396FA8AC1524BA8200E29B35 /* ViewController.xib in Resources */,
+				39C1C01D16361D28007B3CF1 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 				396FA8B11524BA8200E29B35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
